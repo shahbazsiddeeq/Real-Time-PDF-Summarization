@@ -20,3 +20,8 @@ The backend of the application is implemented using Python, with the FastAPI fra
 API Development: The backend includes an API that supports real-time interactions, potentially utilizing WebSockets or Socket.IO.
 LLM Integration: It integrates two LLM models: Llama and GPT-4, for text generation and summarization.
 Testing: The backend is thoroughly tested to ensure its functionality and reliability.
+
+## Installation
+To run the application locally, follow these steps:
+```bash
+    git clone https://github.com/shahbazsiddeeq/Real-Time-PDF-Summarization.git
