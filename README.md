@@ -41,5 +41,5 @@ To run the application locally, follow these steps:
 or 
    ```bash
       cd Backend
-      pip install fastapi uvicorn starlette python-multipart pdfplumber aiofiles monsterapi cors
+      pip install fastapi uvicorn starlette python-multipart pdfplumber aiofiles monsterapi cors json
       uvicorn server:app --reload
