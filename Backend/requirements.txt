@@ -1,0 +1,7 @@
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pdfplumber>=0.5.28
+requests>=2.25.1
+huggingface_hub>=0.0.12
+pydantic>=1.8.2
+monsterapi>=0.0.5
