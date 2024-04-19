@@ -25,11 +25,4 @@ Testing: The backend is thoroughly tested to ensure its functionality and reliab
 To run the application locally, follow these steps:
 ```bash
     git clone https://github.com/shahbazsiddeeq/Real-Time-PDF-Summarization.git
-
-```bash
-    cd Frontend
-    npm install
-
-```bash
-    cd Backend
-    pip install -r requirements.txt
+kjhk
