@@ -39,7 +39,7 @@ To run the application locally, follow these steps:
     pip install -r requirements.txt
     uvicorn server:app --reload
 or 
-    ```bash
-        cd Backend
-        pip install fastapi uvicorn python-multipart pdfplumber aiofiles monsterapi
-        uvicorn server:app --reload
+   ```bash
+      cd Backend
+      pip install fastapi uvicorn python-multipart pdfplumber aiofiles monsterapi
+      uvicorn server:app --reload
