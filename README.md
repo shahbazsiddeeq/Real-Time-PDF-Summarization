@@ -23,6 +23,23 @@ Testing: The backend is thoroughly tested to ensure its functionality and reliab
 
 ## Installation
 To run the application locally, follow these steps:
-```bash
-    git clone https://github.com/shahbazsiddeeq/Real-Time-PDF-Summarization.git
-kjhk
+1. Clone the repository or download diorectly from the browser:
+   ```bash
+   git clone https://github.com/shahbazsiddeeq/Real-Time-PDF-Summarization.git
+
+2. First go to Frontend directory:
+    ```bash
+    cd Frontend
+    npm install
+    npm start
+
+3. Backend:
+    ```bash
+    cd Backend
+    pip install -r requirements.txt
+    uvicorn server:app --reload
+or 
+    ```bash
+        cd Backend
+        pip install fastapi uvicorn python-multipart pdfplumber aiofiles monsterapi
+        uvicorn server:app --reload
