@@ -115,7 +115,7 @@ def call_chat_gpt_api_full_text(content):
         # Adding the user's question to the prompt
         url = 'https://api.openai.com/v1/chat/completions'
         headers = {
-            'Authorization': 'Bearer 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',
+            'Authorization': 'Bearer your OpenAI API key',
             'Content-Type': 'application/json',
         }
 
@@ -131,7 +131,7 @@ def call_chat_gpt_api_full_text(content):
         completion_content = response_json['choices'][0]['message']['content']
         return completion_content
 def call_tinyllama_api(content):
-    api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjQ3OGExNDFkYjRhZTU0MDhhMGUyNjg3ZmIxMWVkNmUyIiwiY3JlYXRlZF9hdCI6IjIwMjQtMDQtMTlUMTY6MzU6MDAuNTEyNTc2In0.J_dXW_mQUssZw8BvWXwbhLOc85Dr1XPtuZh6CAOPy-g'  # Replace 'your-api-key' with your actual Monster API key
+    api_key = # Replace 'your-api-key' with your actual Monster API key
     # Initialize the LLMClient with your API key
     client = LLMClient(api_key=api_key)
     # Specify the model you want to use and the input data
