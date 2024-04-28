@@ -59,7 +59,7 @@ function App() {
         </div>
       </div>
       <footer className="App-footer">
-        © 2024 Your Company Name
+        Real-Time PDF Summarization
       </footer>
     </div>
   );
